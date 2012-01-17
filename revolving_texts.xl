@@ -1,0 +1,38 @@
+// ****************************************************************************
+//  revolving_texts.xl                                              Tao project
+// ****************************************************************************
+// 
+//   File Description:
+// 
+//    Create revolving texts
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// ****************************************************************************
+// This document is released under the GNU General Public License.
+// See http://www.gnu.org/copyleft/gpl.html and Matthew 25:22 for details
+//  (C) 2011 Christophe de Dinechin <christophe@taodyne.com>
+//  (C) 2011 Jérôme Forissier <jerome@taodyne.com>
+//  (C) 2011 Catherine Burvelle <cathy@taodyne.com>
+//  (C) 2011 Taodyne SAS
+// ****************************************************************************
+
+module_description
+    id "9b54f6dd-7c07-4dc6-b83a-25eeffaf82e7"
+    name "Revolving Texts"
+    description "Add revolving texts"
+    import_name "RevolvingTexts"
+    author "Taodyne SAS"
+    website "http://www.taodyne.com"
+    version 1.0
+
+module_description "fr",
+    name "Barillet de textes"
+    description "Definit un barillet de textes."
+
+import "revolving_texts2.xl.crypt"
