@@ -2,7 +2,7 @@
  * @~english
  * @taomoduledescription{RevolvingTexts, Revolving Texts}
  *
- * Revolving texts.
+ * Revolving texts.\n
  *
  * This module allows to add texts rotating around a virtual cylinder in your presentations.
  *
@@ -11,14 +11,14 @@
  * @include revolving_texts.ddd
  *
  * Here is a screen capture of this document:
- * @image html "revolving_texts.png" "Revolving texts"
+ * @image html "revolving_texts.png" "Output from revolving_texts.ddd"
  *
  * @endtaomoduledescription{RevolvingTexts}
  *
  * @~french
  * @taomoduledescription{RevolvingTexts, Barillet de textes}
  *
- * Barillet de textes.
+ * Barillet de textes.\n
  *
  * Ce module permet d'ajouter des textes tournants autour d'un cylindre invisible dans vos présentations.
  *
@@ -88,7 +88,7 @@ revolving_format(format:text, size:integer);
  * @param s saturation component of the color, in the range 0.0 to 1.0.
  * @param v value component of the color, in the range 0.0 to 1.0.
  *
- * @note For further informations, see @p color_hsv
+ * @note For further informations, see @ref color_hsv
  *
  * @~french
  * Change la couleur du texte au second plan.
@@ -99,7 +99,7 @@ revolving_format(format:text, size:integer);
  * @param s Saturation, entre 0.0 to 1.0.
  * @param v Valeur, entre 0.0 to 1.0.
  *
- * @note Pour plus d'informations, voir @p color_hsv
+ * @note Pour plus d'informations, voir @ref color_hsv
  */
 revolving_color(h:real, s:real, v:real);
 
@@ -113,7 +113,7 @@ revolving_color(h:real, s:real, v:real);
  * @param s saturation component of the color, in the range 0.0 to 1.0.
  * @param v value component of the color, in the range 0.0 to 1.0.
  *
- * @note For further informations, see @p color_hsv
+ * @note For further informations, see @ref color_hsv
  *
  * @~french
  * Change la couleur de mise en valeur du texte au premier plan.
@@ -124,7 +124,7 @@ revolving_color(h:real, s:real, v:real);
  * @param s Saturation, entre 0.0 to 1.0.
  * @param v Valeur, entre 0.0 to 1.0.
  *
- * @note Pour plus d'informations, voir @p color_hsv
+ * @note Pour plus d'informations, voir @ref color_hsv
  */
 highlighting_color(h:real, s:real, v:real);
 
