@@ -11,7 +11,7 @@
  * @include revolving_texts.ddd
  *
  * Here is a screen capture of this document:
- * @image html "revolving_texts.png" "Output from revolving_texts.ddd"
+ * @image html "revolving_texts.png" "Revolving texts"
  *
  * @endtaomoduledescription{RevolvingTexts}
  *
