@@ -88,7 +88,7 @@ revolving_format(format:text, size:integer);
  * @param s saturation component of the color, in the range 0.0 to 1.0.
  * @param v value component of the color, in the range 0.0 to 1.0.
  *
- * @note For further informations, see @p color_hsv
+ * @note For further informations, see @ref color_hsv
  *
  * @~french
  * Change la couleur du texte au second plan.
@@ -99,7 +99,7 @@ revolving_format(format:text, size:integer);
  * @param s Saturation, entre 0.0 to 1.0.
  * @param v Valeur, entre 0.0 to 1.0.
  *
- * @note Pour plus d'informations, voir @p color_hsv
+ * @note Pour plus d'informations, voir @ref color_hsv
  */
 revolving_color(h:real, s:real, v:real);
 
@@ -113,7 +113,7 @@ revolving_color(h:real, s:real, v:real);
  * @param s saturation component of the color, in the range 0.0 to 1.0.
  * @param v value component of the color, in the range 0.0 to 1.0.
  *
- * @note For further informations, see @p color_hsv
+ * @note For further informations, see @ref color_hsv
  *
  * @~french
  * Change la couleur de mise en valeur du texte au premier plan.
@@ -124,7 +124,7 @@ revolving_color(h:real, s:real, v:real);
  * @param s Saturation, entre 0.0 to 1.0.
  * @param v Valeur, entre 0.0 to 1.0.
  *
- * @note Pour plus d'informations, voir @p color_hsv
+ * @note Pour plus d'informations, voir @ref color_hsv
  */
 highlighting_color(h:real, s:real, v:real);
 
