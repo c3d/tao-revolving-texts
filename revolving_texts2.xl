@@ -24,9 +24,14 @@
 
 import Animate
 
-license_check -> check_impress_or_license "RevolvingTexts 1.003"
-
-
+license_ok ->
+    if check_impress_or_license "RevolvingTexts 1.003" then
+        true
+    else
+        if blink (1.0, 1.0, 300.0) then
+           true
+        else
+           false
 
 // ============================================================================
 //
@@ -94,19 +99,17 @@ revolving_text n, l ->
 // ----------------------------------------------------------------------------
 //    Add a text in the revolving cylinder
 // ----------------------------------------------------------------------------
-    license_check
-    if REVOLVING_SMOOTH = 1 then
-        compute_smooth_step
-        REVOLVING_SMOOTH := 0
-    locally
-        adjust n, (n - smooth_step - 1) * pi / 12
-        vertical_align 0.0
-        font REVOLVING_FONT, REVOLVING_SIZE
-        text_box 340, 0, 400, 140,
-            align 0.0
-            text l
-
-
+    if license_ok then
+        if REVOLVING_SMOOTH = 1 then
+            compute_smooth_step
+            REVOLVING_SMOOTH := 0
+        locally
+            adjust n, (n - smooth_step - 1) * pi / 12
+            vertical_align 0.0
+            font REVOLVING_FONT, REVOLVING_SIZE
+            text_box 340, 0, 400, 140,
+                align 0.0
+                text l
 
 // ============================================================================
 //
