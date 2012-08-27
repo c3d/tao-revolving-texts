@@ -24,7 +24,7 @@
 
 import Animate
 
-license_check -> check_impress_or_license "RevolvingTexts 1.004"
+license_check -> check_impress_or_license "RevolvingTexts 1.003"
 
 
 
