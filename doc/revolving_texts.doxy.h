@@ -2,7 +2,7 @@
  * @~english
  * @taomoduledescription{RevolvingTexts, Revolving Texts}
  *
- * <tt>import RevolvingTexts</tt> - Revolving texts.
+ * Revolving texts.
  *
  * This module allows to add texts rotating around a virtual cylinder in your presentations.
  *
@@ -18,7 +18,7 @@
  * @~french
  * @taomoduledescription{RevolvingTexts, Barillet de textes}
  *
- * <tt>import RevolvingTexts</tt> - Barillet de textes.
+ * Barillet de textes.
  *
  * Ce module permet d'ajouter des textes tournants autour d'un cylindre invisible dans vos présentations.
  *
