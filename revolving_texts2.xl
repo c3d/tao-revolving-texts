@@ -24,6 +24,8 @@
 
 import Animate
 
+license_check -> check_impress_or_license "RevolvingTexts 1.005"
+
 
 
 // ============================================================================
@@ -92,6 +94,7 @@ revolving_text n, l ->
 // ----------------------------------------------------------------------------
 //    Add a text in the revolving cylinder
 // ----------------------------------------------------------------------------
+    license_check
     if REVOLVING_SMOOTH = 1 then
         compute_smooth_step
         REVOLVING_SMOOTH := 0
