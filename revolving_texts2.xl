@@ -34,30 +34,23 @@ import Animate
 
 // Font of revolving text
 REVOLVING_FONT -> "Arial"
-REVOLVING_FONT := "Arial"
 
 // Size of revolving text
 REVOLVING_SIZE -> 16
-REVOLVING_SIZE := 16
 
 // Hightlight color
-HUE_1 -> 0.0
-HUE_1 := 0.0
-SATURATION_1 -> 1.0
-SATURATION_1 := 1.0
-VALUE_1 -> 0.8
-VALUE_1 := 0.8
+HUE_1           -> 0.0
+SATURATION_1    -> 1.0
+VALUE_1         -> 0.8
 
 // Revolving color
-HUE_2 -> 0.0
-HUE_2 := 0.0
-SATURATION_2 -> 0.1
-SATURATION_2 := 0.1
-VALUE_2 -> 0.8
-VALUE_2 := 0.8
+HUE_2           -> 0.0
+SATURATION_2    -> 0.1
+VALUE_2         -> 0.8
 
 REVOLVING_SMOOTH -> 1
-REVOLVING_SMOOTH := 1
+
+
 
 // ============================================================================
 //
