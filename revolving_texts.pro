@@ -31,9 +31,6 @@ INSTALLS    -= thismod_bin
 HEADERS += \
     doc/revolving_texts.doxy.h
 
-LICENSE_FILES = revolving_texts.taokey.notsigned
-include(../licenses.pri)
-
 QMAKE_SUBSTITUTES = doc/Doxyfile.in
 DOXYFILE = doc/Doxyfile
 DOXYLANG = en,fr
