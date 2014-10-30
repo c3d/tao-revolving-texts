@@ -19,11 +19,7 @@ MODINSTDIR = revolving_texts
 
 include(../modules.pri)
 
-OTHER_FILES = revolving_texts.xl \
-    revolving_texts2.xl \
-
-CRYPT_XL_SOURCES = revolving_texts2.xl
-include(../crypt_xl.pri)
+OTHER_FILES = revolving_texts.xl 
 
 INSTALLS    += thismod_icon
 INSTALLS    -= thismod_bin
